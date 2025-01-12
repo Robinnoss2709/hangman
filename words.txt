@@ -4,3 +4,7 @@ obesenec
 pocitac
 hra
 server
+linux
+system
+fakulta
+informatika
