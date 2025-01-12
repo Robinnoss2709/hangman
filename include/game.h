@@ -9,6 +9,8 @@
 #include <pthread.h>
 
 #define PORT 8080
+#define MAX_WORDS 100
+#define MAX_WORD_LENGTH 256
 
 typedef struct
 {
@@ -16,6 +18,7 @@ typedef struct
     char result[256];
     int lives;
     int game_over;
+    char guessed_letters[256];
 } Message;
 
 #endif
