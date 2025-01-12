@@ -6,12 +6,12 @@
 #include <string.h>
 #include <unistd.h>
 #include <arpa/inet.h>
+#include <ctype.h>
 #include "game.h"
+#include "globals.h"
 
-// Funkcia na kontrolu, či je znak písmeno
-int is_valid_letter(char c);
+int is_valid_input(const char *input);
 
-// Funkcia na hranie hry (hlavná herná logika klienta)
 void play_game(int socket);
 
-#endif // CLIENT_H
+#endif
